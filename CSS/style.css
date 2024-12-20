@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+  body{
+    background-color:rgb(170, 168, 168);
+  }
+  header{
+    background-image: url('../Images/travel2.jpg');
+    background-size: cover;
+    background-position: center;
+    color :#cecdcd;
+    text-align: center;
+    padding: 100px 0;
+}
+.navbar{
+    background-color:rgb(177, 117, 127);
+    font-family:'Merriweather', serif;
+}
+.navbar a:hover {
+    background-color: rgb(216, 183, 189);
+    color:rgb(214, 143, 155);
+
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1); 
+    box-shadow: 3px 3px 5px #cecdcd;
+}
+
+footer {
+    background-color: rgb(177, 117, 127);
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+}
+header{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+button {
+    color: #552155; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:underline;
+}
+
+ 
+  .dark-mode {
+    background-color:#4d25ff;
+    color: rgb(170, 168, 168);
+  }
+  .light-mode {
+    background-color: rgb(170, 168, 168);
+    color: black;
+   }
+
+  #mode {
+    width: 50%;
+    height: 50%;
+  }
+  #image {
+    height: 233.33px;
+    width: 233.33px;
+  background: 
+  url('https://miro.medium.com/max/1400/1*WhDjw8GiV5o0flBXM4LXEw.png') 0px 0px;
+  }
